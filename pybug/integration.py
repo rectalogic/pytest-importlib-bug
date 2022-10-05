@@ -1,13 +1,9 @@
-import dataclasses
-
-
-@dataclasses.dataclass
 class Event:
-    f: int
+    pass
 
 
 def doctest():
     """
-    >>> x = Event(33)
+    >>> x = Event()
     """
     pass
